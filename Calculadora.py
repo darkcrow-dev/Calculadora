@@ -20,6 +20,7 @@ def igualClick():
 #Titulo de la aplicacion
 ventana = Tk()
 ventana.title("CALCULADORA")
+ventana.geometry('294x306')
 
 #Ventana para los calculos ingresados
 i = 0
