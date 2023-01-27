@@ -1,5 +1,5 @@
 # Calculadora
-Calculadora básica creada en python.
+Calculadora básica creada en python y tkinter.
 
 ![Calculadora9](https://user-images.githubusercontent.com/108247794/214802924-6fbd2f62-5021-4396-8457-7a5ea9c14425.png)
 
