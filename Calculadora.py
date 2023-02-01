@@ -8,14 +8,12 @@ def botonClick(valor):
 
 def borrarClick():
     texto.delete(0, END)
-    i = 0
 
 def igualClick():
     valor = texto.get()
     resultado = eval(valor)
     texto.delete(0, END)
     texto.insert(0, resultado)
-    i = 0
 
 #Titulo de la aplicacion
 ventana = Tk()
