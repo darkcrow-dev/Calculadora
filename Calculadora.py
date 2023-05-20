@@ -73,5 +73,5 @@ boton0.grid(row = 5, column = 0, columnspan = 2, padx = 5, pady = 5)
 botonPunto.grid(row = 5, column = 2, padx = 5, pady = 5)
 botonIgual.grid(row = 5, column = 3, padx = 5, pady = 5)
 
-#Iniciar la aplicacion
+#Iniciar la aplicacion de la calculadora
 ventana.mainloop()
