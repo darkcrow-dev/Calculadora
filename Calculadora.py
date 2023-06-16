@@ -5,15 +5,18 @@ def botonClick(valor):
     global i
     texto.insert(i, valor)
     i += 1
+    return
 
 def borrarClick():
     texto.delete(0, END)
+    return
 
 def igualClick():
     valor = texto.get()
     resultado = eval(valor)
     texto.delete(0, END)
     texto.insert(0, resultado)
+    return
 
 #Titulo de la aplicacion
 ventana = Tk()
